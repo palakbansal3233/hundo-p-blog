@@ -37,6 +37,33 @@ ul {
   list-style-type: none;
 }
 
+h1 {
+  font-family: var(--Lexend);
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: var(--Lexend);
+}
+
+h3 {
+  font-family: var(--Abel);
+  font-size: 1.3rem;
+}
+
+button.btn {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  font-family: var(--Livvic);
+  cursor: pointer;
+}
+
+span {
+  font-family: var(--Abel);
+}
+
 .nav {
     background-color: white;
     padding: 0 2rem;
@@ -114,6 +141,82 @@ ul {
 .nav .social i:hover {
     color: #a1c4cf;
 }
+
+/* Main Content */
+
+/* Site Title  */
+
+main .site-title {
+    background: url('../assets/bg-image1.jpg');
+    background-size: cover;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background {
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--white);
+}
+
+main .site-title h1, h3 {
+  margin: .3rem;
+}
+
+main .site-title .btn {
+  margin: 1.8rem;
+  background: var(--sky);
+}
+
+main .site-title .btn:hover {
+  background: transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+/* Site Title  */
+
+/* Carousel */
+
+main .blog {
+  background: url('../assets/Abract01.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+  width: 100%;
+}
+
+main .blog .blog-post {
+  padding-top: 6rem;
+}
+
+main .blog-post .blog-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin: 3rem 2rem;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+main .blog-content .blog-title {
+  padding: 2rem 0;
+}
+
+main .blog-content .btn-blog {
+  padding: .7rem 2rem;
+  background: var(--sky);
+  margin: .5rem;
+}
+
+main .blog-content span {
+  display: block;
+}
+/* Carousel */
+
+
+/* Main Content */
 
 @media only screen and (max-width: 750px){
     .nav .nav-menu, .nav .nav-items {

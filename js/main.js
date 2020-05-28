@@ -6,4 +6,8 @@ $(document).ready(function(){
     $toggleCollapse.click(function(){
         $nav.toggleClass('collapse');
     })
+    
+    //carousel 
+    $('.owl-carousel').owlCarousel();
+
 }) 
