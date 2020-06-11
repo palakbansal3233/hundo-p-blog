@@ -17,4 +17,6 @@ $(document).ready(function(){
         navText: [$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')]
     });
 
+    //scroll-top
+    
 }) 
