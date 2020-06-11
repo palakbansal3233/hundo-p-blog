@@ -72,6 +72,11 @@ span {
   color: var(--text-gray);
 }
 
+p {
+  font-family: var(--Lexend);
+  color: var(--text-light);
+}
+
 .nav {
     background-color: white;
     padding: 0 2rem;
@@ -258,7 +263,6 @@ main .site-content {
 }
 
 main .post-content {
-  margin-bottom: 5rem;
   width: 100%;
 }
 
@@ -302,6 +306,24 @@ main .post-content .post-title a {
   border-radius: 0;
   padding: .7rem 1.5rem;
   background: var(--sky);
+}
+
+.site-content .pagination {
+  justify-content: center;
+  color: var(--text-gray);
+  margin: 4rem 0;
+}
+
+.site-content .pagination a {
+  padding: .6rem .9rem;
+  border-radius: 2rem;
+  margin: 0 .3rem;
+  font-family: var(--Lexend);
+}
+
+.site-content .pagination .page {
+  background: var(--text-gray);
+  color: var(--white);
 }
 /* Main Content */
 
